@@ -50,7 +50,7 @@ I will recommend you make pull request to your own repo which is very very saffe
 keep in mind that repo has hacktoberfest topic..
 #Happy Hacking 💻
 
-# Cowls-Community
+# Beginner_Hactoberfest2022
 Contribute here for Hacktoberfest2022
 
 STEPS TO CONTRIBUTE IN THIS REPO.
