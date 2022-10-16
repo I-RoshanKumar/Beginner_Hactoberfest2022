@@ -15,4 +15,5 @@ int main(){
     if(ctr!=a.length())cout<<"Enter a valid number"<<endl;
     else if(a==b)cout<<"Number is a plaindrome"<<endl;
     else cout<<"Number is not a plaindrome"<<endl;
+    return 0;
 }
