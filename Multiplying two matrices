@@ -1,0 +1,14 @@
+m, n, r = [int(k) for k in input().split()]
+// here m is rows,n is columns of 1st matrix and rows for second and r is columns for 2nd matrix
+A = [[int(k) for k in input().split()] for i in range(m)]
+//elements in first matrix
+B = [[int(k) for k in input().split()] for j in range(n)]
+//elements in second matrix
+C = [[0]*r for i in range(m)]
+//third empty matrix that will later contain the answers
+for i in range(m):
+    for k in range(r):
+        for j in range(n):
+            C[i][k] += A[i][j] * B[j][k]
+
+print('\n'.join([' '.join([str(k) for k in row]) for row in C]))
