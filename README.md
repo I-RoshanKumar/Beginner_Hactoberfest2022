@@ -36,15 +36,13 @@
 <img width="666" alt="Screenshot 2022-10-15 at 22 16 17" src="https://user-images.githubusercontent.com/38398999/196004160-adc1a014-6cff-4a29-b159-0597c099f1ef.png">
 
 >Note:
-All contributors who have followed the rules to contribute get successfully merged PR. Don't forget to follow!!!
-Don't forget to star this repo.
-Don't forget to add your name at contributors.
-Always make more then 4 pull request, lets you have made only 4 pull request to different projects
-but one project is excluded from hackoctoberfest event then your pull request will not be count and 
-then you have remains 3 valid pull request if these projects is not excluded.
-if you fail to make 4 pull request then you can't get swags.
-I will recommend you make pull request to your own repo which is very very saffest side for you..
-keep in mind that repo has hacktoberfest topic..
+1. All contributors who have followed the rules to contribute get successfully merged PR. Don't forget to follow!!!
+2. Don't forget to star this repo.
+3. Don't forget to add your name at contributors.
+4. Always make more than 4 pull requests so that even if one project gets excluded, you have other backups.
+5. If you fail to make 4 pull requests, you won't get swags.
+6. I will recommend you also make pull requests to your own repo which is the safest option.
+7. Keep in mind that your repo should have hacktoberfest topic.
 
 
 ## Contribute here for Hacktoberfest2022
