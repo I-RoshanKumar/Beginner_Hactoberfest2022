@@ -1,0 +1,40 @@
+#include<simplecpp>
+
+main_program{
+turtleSim();
+repeat(18){
+  forward(10);
+  right(20);
+ }
+left(15);
+repeat(21){
+  forward(10);
+  left(20);
+ }
+right(15);
+repeat(30){
+  forward(10);
+  right(20);
+ }
+left(15);
+repeat(24){
+  forward(10);
+  left(20);
+ }
+right(15);
+repeat(30){
+  forward(10);
+  right(20);
+ }
+left(15);
+repeat(42){
+  forward(10);
+  left(20);
+ }
+right(15);
+repeat(18){
+  forward(10);
+  right(20);
+ }
+ wait(1000);
+}
