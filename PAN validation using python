@@ -1,0 +1,13 @@
+#PAN number validation using simple if else statements and taking user input.
+
+PAN = input("Enter your PAN : ")
+if PAN.isalnum() == True:
+    if len(PAN) == 10:
+         if (PAN[0:5].isalpha() and PAN[0:5].isupper())and PAN[5:8].isdigit() and (PAN[-1].isalpha() and PAN[-1].isupper()):
+           print("It is a VALID PAN no.")
+         else:
+           print("It is not according to format.")
+    else:
+      print("It does not have 10 characters")
+else:
+  print("RE-ENTER your PAN")
