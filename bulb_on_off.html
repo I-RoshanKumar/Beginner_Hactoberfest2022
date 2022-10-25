@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Baloo Bhai 2', cursive;
+            background-color:black;
+        }
+        header{
+            height: 100px;
+            width: 100%;
+            background: #34dab4;
+            color: #3f3f3f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+        }
+        section{
+            width: 100%;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .btn_container{
+            margin-top: 50px;
+        }
+        .bulb_btn{
+            font-family: 'Baloo Bhai 2', cursive;
+            width: 150px;
+            height: 50px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            background: #34dab4;
+            font-size: 30px;
+        }
+        </style>
+</head>
+
+<body>
+    <header>
+        <h1>bulb on off project in javascript</h1>
+    </header>
+    <section>
+        <img src="https://i.postimg.cc/KjK1wL3c/bulb-off.png" id="bulb" width="200">
+        <div class="btn_container"><button id="on" class="bulb_btn" onclick="bulb_on()">on</button>
+        <button id="off" class="bulb_btn" onclick="bulb_off()">off</button></div>
+    </section>
+    
+    
+    <script>
+     function bulb_on(){
+      document.getElementById('bulb').src='https://i.postimg.cc/6QyTynzr/bulb-on.png';
+  }
+  function bulb_off(){
+      document.getElementById('bulb').src='https://i.postimg.cc/KjK1wL3c/bulb-off.png';
+  }
+  </script>
+  </body>
+</html>
+</html>
+
