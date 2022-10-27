@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+<style>
+body
+{
+  margin:0; 
+}
+.header{
+  height:50px;
+  width:100%;
+} 
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+ 
+.banner{
+  height:520px;
+  width:100%;
+  background-image: url( "https://www.tanishq.co.in/wps/wcm/connect/tanishq/7441f089-0209-4297-b636-98f99ef8757e/desktop/2500x712.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0RT10QIMVSTFU3006-7441f089-0209-4297-b636-98f99ef8757e-desktop-nHX9GAh");
+    background-repeat:no-repeat;
+  background-size: cover;
+}
+.h1{
+  color:black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 33px;
+  font-weight: 700;
+  align-content: center;
+  margin-top: 300px;
+}
+ 
+.text1{ 
+  height: 150px;
+  width: auto;
+  font-size: 23px;
+  font-weight: 400;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  border:2px solid rgb(99, 93, 93);
+  background-image: linear-gradient(to right, rgb(226, 231, 231) , rgb(179, 214, 230));;
+}
+.h2{
+  margin-left:40px ;
+}
+.btn-group{
+  align-content: center; 
+  margin-left: 150px;
+}
+.hero1
+{ 
+  position: relative;
+  margin-top:0px ;
+  height:1100px;
+  width: 100%; 
+  background-image: url("https://images.pexels.com/photos/2735970/pexels-photo-2735970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  }
+
+.banner_txt{    
+    width:30%;  
+    height:150px; 
+    display: flex; 
+    opacity: 0.9; 
+    position:relative;
+    top:53px;
+} 
+img{
+  border-radius: 3px;
+  border-color: black;  
+}
+.first:hover{
+  box-shadow:  10px 10px 10px rgb(73, 72, 72); 
+  height:300px;
+  width:500px;
+  border-radius: 14px;
+}  
+.row1{ 
+  float:left; 
+  margin-left: 42px;
+}
+ 
+.row2{ 
+  float:left; 
+  margin-left: 88px;
+}
+
+.row3{ 
+  float:left; 
+  margin-right: 32px; 
+} 
+
+.hero2{
+  position: relative;
+  margin-top:0px ;
+  height:1500px;
+  width: 100%;  
+  background-image: url("https://images.pexels.com/photos/2849742/pexels-photo-2849742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+   background-size: cover;
+  background-repeat: no-repeat;
+  }     
+  .row{
+    
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  float: left;   
+  padding: 5px;  
+} 
+.hero3{ 
+  margin-top:0px ;
+  height:800px;
+  width: 100%;    
+  background-image: linear-gradient(to bottom right, rgb(226, 188, 223), rgb(243, 140, 200));
+   background-size: cover;
+  background-repeat: no-repeat;
+  }   
+  .pic{      
+ display: inline-block; 
+ padding-top: 25px;
+ margin-left: 16px;
+ padding-left: 5 px; 
+  }  
+h2{
+  float: right;  
+  text-align: center;
+  margin-left: 25px;
+  margin-top: 240px;
+  color: rgb(8, 8, 8);
+  font-size: 33px;
+  font-weight: 800;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+.button {
+  position: relative; 
+  background-image: linear-gradient(to bottom right, rgb(168, 160, 168), rgb(31, 145, 160));
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  height: 60px;
+  width:260px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 2px;
+  cursor: pointer;
+  border-radius: 5px;  
+}
+.button:hover{
+  height: 70px;
+  width:290px;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+} 
+  
+.hero4{ 
+  margin-top:0px ;
+  height:700px;
+  width: 100%;   
+  background-color:rgb(206, 219, 219) ; 
+  }    
+
+  
+
+
+  @import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+.team4 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+
+.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
+  color: #3e4555;
+}
+
+.team4 .font-weight-medium {
+	font-weight: 500;
+}
+
+.team4 h5 {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.team4 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+		font-size: 13px;
+}
+
+.team4 ul li a {
+  color: #8d97ad;
+  padding-right: 15px;
+  -webkit-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.team4 ul li a:hover {
+  -webkit-transform: translate3d(0px, -5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
+	color: #316ce8;
+}
+.list-inline-item:hover{
+  translate: scale(50,100);
+}
+
+</style>
+</head>
+<body> 
+<div class="header">   
+  <div class="topnav">
+    <a  href="#home">Home</a>
+    <a href="#visit">Visit</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+</div> 
+<div class="banner">   
+          <div class="banner_txt">  
+            <button>
+               <h1> upto 20% off on MRP of 2500+ designs</h1> 
+            </button>
+          </div>
+        </div> 
+</div>
+    <div class=hero1>
+    ..
+    <marquee>
+      
+    <img src="https://banner.caratlane.com/live-images/3a3020df6bcf4ff982055b4bcbe370fb.jpg " class="first"height="20%" width="40%">
+    <img src="https://banner.caratlane.com/live-images/402a86e7a9cb4077ba3d61755d93b923.jpg" class="first" height= "260px" width="480px">
+    <img src="https://banner.caratlane.com/live-images/01cca8285deb4c8eb86f514a96439d16.gif" class="first" height="20%" width="40%">
+    <img src="https://banner.caratlane.com/live-images/b61f0e99dc704db3a74c4d45767337ac.jpg" class="first" height="260px" width="480px">
+    </marquee>
+    <br>
+    <br>
+    <br>
+    <br>
+     
+    <!-- Photo Grid -->
+    <div class="row1">  
+      <img src=" https://www.tanishq.co.in/wps/wcm/connect/tanishq/2d5e5637-cb04-433d-a918-ee1204955868/Green+Earrings.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0RT10QIMVSTFU3006-2d5e5637-cb04-433d-a918-ee1204955868-nJkBoVa height" width="355px" height="500px">
+    </div> 
+    <div class="row2">  
+      <img src=" https://www.tanishq.co.in/wps/wcm/connect/tanishq/961d58f0-ec12-4e1c-8573-4deb5d93517f/Pendant-01-420x528Px.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0RT10QIMVSTFU3006-961d58f0-ec12-4e1c-8573-4deb5d93517f-nwXd0PG"   width="80%" height="500px">
+    </div>
+    <div class="row3">  
+      <img src=" https://www.tanishq.co.in/wps/wcm/connect/tanishq/02c4b519-260c-4341-9a08-9ac079915471/At+Home+Jewellery+Care_+420x528+%281%29.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0RT10QIMVSTFU3006-02c4b519-260c-4341-9a08-9ac079915471-njiWf6x"   width="80%" height="500px">
+    </div>
+   </div>
+</div>
+<div class=text1>
+  <h3>Up to 20%* Off
+    on gold making charges and diamond jewellery value
+  </h3>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">Earrings</button>
+    <button type="button" class="btn btn-primary">Pendals</button>
+    <button type="button" class="btn btn-primary">Rings</button>
+    <button type="button" class="btn btn-primary">Mangalsutras</button>
+    <button type="button" class="btn btn-primary">Necklaces</button>
+    <button type="button" class="btn btn-primary">Bangles</button>
+  </div>
+</div>
+<div >
+<div class="hero2">
+      <div class="cards">
+        <div class="column">
+          <img src=" https://banner.caratlane.com/live-images/699f4746418e4a2ca7e89f6fe2de1628.jpg"   width="70%" height="400px">
+        </div>
+        <div class="column">
+          <img src="https://banner.caratlane.com/live-images/ab5151187ff64f70a07ed654363be717.jpg"    width="70%" height="400px">
+        </div>
+        <div class="column">
+          <img src="https://banner.caratlane.com/live-images/20ac9ec9f241455d919aca68b172e8a0.jpg"   width="70%" height="400px">
+        </div>
+        <div class="column">
+          <img src="https://banner.caratlane.com/live-images/0f8532baa31748889c57b1b29599fe28.jpg"    width="70%" height="400px">
+        </div>
+        <div class="column">
+          <img src=" https://banner.caratlane.com/live-images/ae2267117cf54bdc8cf72d744bb8ce78.jpg"   width="70%" height="400px">
+        </div>
+        
+        <div class="column">
+          <img src="https://banner.caratlane.com/live-images/1380d42c888348f28ab26781d4b8ba00.jpg "  width="70%" height="400px">
+        </div>
+        <div class="column">
+          <img src=" https://banner.caratlane.com/live-images/d2420928858b487ea43b935bcdaab99e.jpg"    width="70%" height="400px">
+        </div>
+        <div class="column">
+          <img src="https://banner.caratlane.com/live-images/33d452cebd8e4d0db573ebb49d1efcbf.jpg "  width="70%" height="400px">
+        </div>
+        <div class="column">
+          <img src="https://banner.caratlane.com/live-images/2d78eca65c124a588344ffcefb652e13.jpg "    width="70%" height="400px">
+        </div>
+        <div class="column">
+          <img src="https://banner.caratlane.com/live-images/1380d42c888348f28ab26781d4b8ba00.jpg "  width="70%" height="400px">
+        </div>
+         
+        <div class="column">
+          <img src=" https://staticimg.titan.co.in/Tanishq/Catalog/500484SKAAAA09_1.jpg?impolicy=pqmed&imwidth=640"    width="51%" height="400px">
+        </div>
+        <div class="column">
+          <img src=" https://staticimg.titan.co.in/Tanishq/Catalog/502213SHPAAA09_1.jpg?impolicy=pqmed&imwidth=640"   width="200px" height="400px">
+        </div>   
+      </div>  
+</div>
+<div class="hero3">
+<div class="pic">
+    <img src="https://banner.caratlane.com/live-images/e727c3af607c47b2a6c044eb4debb9ba.jpg" width="350px" height="360px">
+    <h2>Not Sure Which Design To Pick?<br>
+      Book A FREE Home Trial!<br>
+      Come visit us at any of our stores!<h2>
+</div>
+<div class="pic">
+  <img src="https://banner.caratlane.com/live-images/29f2503b533e4e1fbffad009647fc449.jpg"   width="350px" height="360px">
+  
+  
+  <button class="button">Schedule appointment</button>
+</div>
+</div>
+
+<div class="hero4">
+  <div class="py-5 team4">
+    <div class="container">
+      <div class="row justify-content-center mb-4">
+        <div class="col-md-7 text-center">
+          <h3 class="mb-3">Experienced & Professional Team</h3>
+          <h6 class="subtitle">You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</h6>
+        </div>
+      </div>
+      <div class="row">
+        <!-- column  -->
+        <div class="col-lg-3 mb-4">
+          <!-- Row -->
+          <div class="row">
+            <div class="col-md-12">
+              <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t1.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+            </div>
+            <div class="col-md-12 text-center">
+              <div class="pt-2">
+                <h5 class="mt-4 font-weight-medium mb-0">Pratap Singh</h5>
+                <h6 class="subtitle mb-3">Manager</h6>
+                <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-behance"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Row -->
+        </div>
+        <!-- column  -->
+        <!-- column  -->
+        <div class="col-lg-3 mb-4">
+          <!-- Row -->
+          <div class="row">
+            <div class="col-md-12">
+              <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t2.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+            </div>
+            <div class="col-md-12 text-center">
+              <div class="pt-2">
+                <h5 class="mt-4 font-weight-medium mb-0">Jessica Jison</h5>
+                <h6 class="subtitle mb-3">organizer</h6>
+                <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-behance"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Row -->
+        </div>
+        <!-- column  -->
+        <!-- column  -->
+        <div class="col-lg-3 mb-4">
+          <!-- Row -->
+          <div class="row">
+            <div class="col-md-12">
+              <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+            </div>
+            <div class="col-md-12 text-center">
+              <div class="pt-2">
+                <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
+                <h6 class="subtitle mb-3"> Content Manager</h6>
+                <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-behance"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Row -->
+        </div>
+        <!-- column  -->
+        <!-- column  -->
+        <div class="col-lg-3 mb-4">
+          <!-- Row -->
+          <div class="row">
+            <div class="col-md-12">
+              <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+            </div>
+            <div class="col-md-12 text-center">
+              <div class="pt-2">
+                <h5 class="mt-4 font-weight-medium mb-0">Rashmika Singh</h5>
+                <h6 class="subtitle mb-3">Property Specialist</h6>
+                <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-behance"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Row -->
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<div class="footer">
+</div>
+  
+</body>
+</html>
