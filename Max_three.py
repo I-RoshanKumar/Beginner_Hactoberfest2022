@@ -10,8 +10,6 @@ def maximum(a, b, c):
           
     return largest
   
-  
-# Driven code 
 a = 10
 b = 14
 c = 12
