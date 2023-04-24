@@ -1,0 +1,52 @@
+def merge(M, N, A, B):
+
+    
+
+    for i in range(M):
+
+       
+        if A[i] > B[0]:
+
+            A[i], B[0] = B[0], A[i]
+
+            j = 0
+
+            # shift B[0 ] to its correct position in
+            # second array
+
+            while j + 1 < N and B[j] > B[j + 1]:
+
+                B[j], B[j + 1] = B[j + 1], B[j]
+                j = j + 1
+
+            # Print resultant array
+
+            print(A)
+            print(B)
+
+
+M = 0
+N = 0
+
+# input size of both the arrays
+
+M = int(input())
+
+N = int(input())
+
+# input both the arrays
+
+A = []
+B = []
+
+for i in range(M):
+    temp = int(input())
+    A.append(temp)
+
+for i in range(N):
+    temp = int(input())
+    B.append(temp)
+
+# Function call
+
+merge(M, N, A, B)
